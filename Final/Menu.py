@@ -5,22 +5,22 @@ def calc_menu():
         print("1_+; 2_-; 3_*; 4_/; 5_x_выход ?")
         user_input = int(input())
         if(user_input == 1 ):
-            from OOPFinal.Addition import Addit
+            from Final.Addition import Addit
             ad = Addit
             print(ad)
             print('')
         elif(user_input == 2):
-            from OOPFinal.Substraction import Substract
+            from Final.Substraction import Substract
             sub = Substract
             print(sub)
             print('')
         elif(user_input == 3):
-            from OOPFinal.Multiplication import Multi
+            from Final.Multiplication import Multi
             mult = Multi
             print(mult)
             print('')
         elif(user_input == 4):
-            from OOPFinal.Division import Div
+            from Final.Division import Div
             di = Div
             print(di)
             print('')

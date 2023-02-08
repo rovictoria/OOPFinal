@@ -1,4 +1,4 @@
-from OOPFinal.Menu import calc_menu
+from Final.Menu import calc_menu
 
 
 def Main():
